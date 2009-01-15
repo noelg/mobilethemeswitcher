@@ -27,7 +27,7 @@ $this->registerModule(
   'Mobile Theme Switcher',
   'Mobile Theme Switcher',
   'Noel GUILBERT',
-  '0.1',
+  '0.2',
   'usage,contentadmin'
 );
 

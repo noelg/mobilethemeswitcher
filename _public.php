@@ -43,7 +43,7 @@ class mobileThemeSwitcherBehaviors
     {
       $theme = $core->blog->settings->theme;
     }
-    elseif (!$theme && (self::isMobileDevice() || isset($_GET['dc_mobile_theme']))
+    elseif (isset($_GET['dc_mobile_theme']) || (!$theme && self::isMobileDevice()))
     {
       $theme = $core->blog->settings->mobilethemeswitcher_theme;
     }
