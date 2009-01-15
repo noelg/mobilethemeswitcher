@@ -1,0 +1,10 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: plugins/mobileThemeSwitcher/_public.php:60
+msgid "Full Version"
+msgstr "Version complete"
+
+#: plugins/mobileThemeSwitcher/_public.php:65
+msgid "Mobile Version"
+msgstr "Version mobile"
